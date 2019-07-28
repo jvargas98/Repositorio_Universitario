@@ -1,0 +1,58 @@
+<!-- ESQUELETO DE LA TABLA QUE SERA CARGADA CON AJAX -->
+<html>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2" id="opciones-izq">
+        <div class="dd-pos">
+            <div class="dropdown" id="dropbox">
+
+            </div>
+        </div>
+    </div>
+    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8" id="table-container">
+        <div class="row">
+
+            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8" id="titulo-m">
+                
+            </div>
+            
+            <div id="acomodo" class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+               
+
+            </div>
+        </div>
+            <table class="table table-hover" id="material-table">
+                <thead class="estilo-tabla">
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th>Año</th>
+                        <th>Formato</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla-materiales">
+                       
+                </tbody>
+            </table>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2">
+    
+    </div>
+    <script>
+    $(document).ready( function () {
+        $('#material-table').dataTable({
+            bFilter:false, 
+            bInfo:false,
+            "processing" : "procesando",
+            "language" : {
+                "paginate": {
+                    "previous": "Anterior",
+                    "next" : "Siguiente"
+                            },
+                "lengthMenu": "Materiales _MENU_ desplegados"
+                        }
+             
+            });
+    });
+</script>
+
+</html>
+

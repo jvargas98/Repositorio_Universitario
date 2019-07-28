@@ -1,0 +1,71 @@
+/* 
+    Created on : Nov 6, 2018, 10:58:53 PM
+    Author     : @José Luis Peregrina Rosales
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+#header{
+    padding-top: 10px;
+    background-image: linear-gradient(to right,#17b585,#2de37e);
+    color: white;
+}
+
+#nombre{
+   text-decoration: none;
+   color: white;
+   font-size: 26px;
+   position: relative;
+   left: 10%;
+}
+#btn-salir{
+    float: right;
+    background-color: #13956d;
+    color: white;
+    height: 75%;
+    width: 13%;
+    margin-left: 0px;
+    padding-left: 3px;
+}
+
+#btn-salir:hover{
+    background-color: #17b585; 
+     color: white;
+}
+#footer{
+    position: relative;
+    bottom: 0px;
+    width: auto;
+    background-color: #13956d;
+    color: #57e998;
+}
+#combo-box{
+    padding: 2px;
+    border:2px solid black;
+}
+#combo-box select{
+    
+}
+#table-container{
+    margin-bottom: 13.27%;
+}
+#contacto{
+    padding-left: 20%;
+}
+#list-contacto{
+    list-style: none;
+}
+#label-Medios{
+    margin-right: 25px;
+    position:relative;
+   
+}
+#display-material{
+    margin-top: 60px;
+}
+#acomodo{
+    padding-top: 10px;
+    padding-left: 145px;
+}

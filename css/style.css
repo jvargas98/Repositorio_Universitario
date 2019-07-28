@@ -1,0 +1,251 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+
+}
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+.login{
+  height: 100%;
+  box-sizing: border-box !important;
+  width: 100%;
+}
+
+.content-login{
+  width: 75%;
+  height: 50%;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.img-fondo{
+  background-image: url('../imagenes/iniciar-1.jpg');
+  /*width: 100%;
+  height: 100%;
+  */
+  
+  position: relative;
+  left: -2%;
+  width: 1272px;
+  height: 966px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.padding-issues{
+  min-height: 654px;
+  background-color: black;
+}
+
+main .row{
+   width: 100%;
+   height: 100%; 
+}
+
+.input-espacio{
+    margin-bottom: 1px;
+}
+
+.btn-tamaño{
+  width: 100%;
+  background-color: #17b585; 
+}
+
+.btn-color-p{
+  background-color: #13956d; 
+  color: white;
+}
+
+
+.btn-color-p:hover{
+  background-color: #17b585; 
+  color: white;
+}
+
+.btn-color-p:active{
+   background-color: #17b585; 
+  color: white; 
+}
+
+.centrarX{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container-fluid .form-group:first-child{
+  margin-bottom: 0px;
+}
+
+.lista{
+    display: inherit;
+}
+
+.lista-posicion{
+  position: relative;
+  left: 10%;
+  width: 90%;
+}
+
+.lista-tam{
+    width: 90%;
+}
+
+.span-posicion{
+  position: absolute;
+  top: 34%;
+  left: 94%;
+}
+
+.titulo-pag{
+   font-size: 30px;
+   margin-bottom: 3%;
+}
+
+.btn-buscador{
+  position: absolute;
+  top: 15%;
+  left: 40%;
+}
+
+.dd-pos{
+   position: relative;
+   left: 0%;
+   width: 100%;
+}
+.btn-agregar{
+    width: 100%;
+    background-color: #13956d;
+    color: white;
+    height: 43px;
+}
+.btn-agregar:hover{
+    background-color: #17b585; 
+     color: white;
+}
+
+.select-pos{
+    position: relative;
+    float: right;
+}
+.btn-select-color{
+    background-color: #13956d;
+    color: white;
+    height: 43px;
+}
+
+.tabla-admin{
+
+}
+#opciones-der{
+    padding-top: 15px;
+    padding-right: 14px;
+}
+#admin-main{
+    padding-top: 25px;
+}
+.cambiar-admin{
+    height: 32px;   
+    position: relative;
+    top: -4px;
+}
+
+.estilo-tabla{
+    background-color: #13956d;
+    border: none;
+    color: white;
+}
+
+.btn-tam{
+    width: 18%;
+    height: 25px;
+    font-size: 8px;
+}
+.icono-pos{
+    position: relative;
+    top: -53%;
+    left: -12px;
+ 
+}
+.botones-grupo{
+    position: relative;
+  
+}
+.botones-seperacion{
+    display: inline;
+    padding-left: 2px;
+}
+.btn-opciones{
+    height: 100%;
+    border-radius: 0px 3px 0px 0px !important;
+    border-bottom-color: white;
+    background-color: #13956d;
+    border-right-color: #13956d;
+    border-left-color: #13956d;
+    border-top-color: #13956d;
+}
+
+.form-botes-posicion{
+    display: inline;
+}
+
+
+.btn-Agregar-Circulo {
+    background-color: #13956d;
+    width: 20px;
+    height: 20px;
+    padding: 1px 5px;
+    border-radius: 15px;  
+    position: relative;
+    left: 2%;
+    margin: 4px 0px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.input-modal-tamaño{
+    height: 20px;
+    font-size: 5pt;
+    size: 10px;
+}
+
+.icono-editar{
+   float: right;
+   
+}
+
+.form-buscador{
+    width: 100%;
+    display: inherit;
+}
+.senales-registro{
+    position: relative;
+    padding-top: 30px;
+   
+}
+.example{
+    height: 81%;
+}
+.container-register-form{
+    padding: 2px;
+    margin-top: 20px;
+}
+.container-register-form button{
+    margin-left: 20px;
+}
+
+.btn-registrar{
+    width: 93%;
+    background-color: #13956d;
+    color: white;
+}
+#chart {
+  max-width: 650px;
+ 
+}
+
